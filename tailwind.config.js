@@ -18,7 +18,7 @@ export const theme = {
         300: "#0061FF",
       },
       accent: {
-        100: "FBFBFD",
+        100: "#FBFBFD",
       },
       black: {
         DEFAULT: "#000",
