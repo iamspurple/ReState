@@ -28,7 +28,7 @@ const Search = () => {
           resizeMode="contain"
         />
         <TextInput
-          className="text-black-100"
+          className="text-black-100 w-72"
           placeholder="Search something"
           placeholderTextColor="#8C8E98"
           onChangeText={handleSearch}
