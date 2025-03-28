@@ -37,11 +37,11 @@ export const FeaturedCard = () => {
 
 export const Card = () => {
   return (
-    <TouchableOpacity className="flex flex-col gap-3 items-center w-48 h-68 bg-white p-5 rounded-xl shadow-lg shadow-black-100/20">
-      <View className="size-36 relative">
+    <TouchableOpacity className="flex flex-col gap-3 items-center w-48 h-68 bg-white p-5 rounded-xl shadow-lg shadow-black-100/20 mb-4">
+      <View className="size-40 relative">
         <Image
           source={images.newYork}
-          className="size-36 rounded-xl"
+          className="size-full rounded-xl"
           resizeMode="cover"
         />
 
